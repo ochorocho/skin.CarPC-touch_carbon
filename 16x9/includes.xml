@@ -223,7 +223,7 @@
 				<width>250</width>
 				<label>Navigation</label>
 				<aligny>center</aligny>
-				<font>font40_title</font>
+				<font>font30_title</font>
 				<textcolor>FFFFFFFF</textcolor>
 			</control>
 		</control>
@@ -310,10 +310,10 @@
 				<posy>22</posy>
 				<height>90</height>
 				<width>250</width>
-				<label>Radio FM</label>
+				<label>Radio</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<font>font40_title</font>
+				<font>font30_title</font>
 				<textcolor>FFFFFFFF</textcolor>
 			</control>
 		</control>
@@ -364,10 +364,10 @@
             <control type="label">
                 <visible>true</visible>
                 <posx>10</posx>
-                <posy>10</posy>
+                <posy>0</posy>
                 <width>600</width>
-                <height>30</height>
-                <font>font30_title</font>
+                <height>50</height>
+                <font>font50_title</font>
                 <textcolor>white</textcolor>
                 <selectedcolor>selected</selectedcolor>
                 <align></align>
@@ -379,10 +379,10 @@
             <control type="label">
                 <visible>true</visible>
                 <posx>10r</posx>
-                <posy>10</posy>
+                <posy>0</posy>
                 <width>600</width>
-                <height>30</height>
-                <font>font30_title</font>
+                <height>50</height>
+                <font>font50_title</font>
                 <textcolor>white</textcolor>
                 <selectedcolor>selected</selectedcolor>
                 <align>right</align>
@@ -825,7 +825,7 @@
 				<posy>30</posy>
 				<width>37</width>
 				<height>480</height>
-				<texturesliderbackground border="0,14,0,14">linie_albastra_v.png</texturesliderbackground>
+				<texturesliderbackground border="0,14,0,14">special://skin/media/linie_albastra_v.png</texturesliderbackground>
 				<texturesliderbar border="0,14,0,14">osdslidernib.png</texturesliderbar>
 				<texturesliderbarfocus border="0,14,0,14">osdslidernib.png</texturesliderbarfocus>
 				<textureslidernib></textureslidernib>
@@ -1040,6 +1040,23 @@
 				<width>70</width>
 				<height>70</height>
 				<texture>pictures2.png</texture>
+			</control>
+			<control type="button">
+				<description>Radio</description>
+				<posx>0</posx>
+				<posy>239</posy>
+				<width>70</width>
+				<height>70</height>
+				<texturenofocus>-</texturenofocus>
+				<texturefocus>button-focus2.png</texturefocus>
+				<onclick>RunScript("plugin.program.radioFM")</onclick>
+			</control>
+			<control type="image">				
+				<posx>0</posx>
+				<posy>239</posy>
+				<width>70</width>
+				<height>70</height>
+				<texture>radio2.png</texture>
 			</control>
 			<control type="button">
 				<description>Radio</description>

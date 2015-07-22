@@ -282,8 +282,7 @@
 				<label>Show Pictures Button 2</label>
 				<onclick>Skin.ToggleSetting(HideHomeButtonPictures)</onclick>
 				<selected>!Skin.HasSetting(HideHomeButtonPictures)</selected>
-			</control>
-			
+			</control>			
 			<control type="radiobutton" id="203">
 				<description>Button 3 Show Radio FM</description>
 				<height>55</height>
@@ -309,6 +308,19 @@
 				<label>Show Favourites Button 3</label>
 				<onclick>Skin.ToggleSetting(HideHomeButtonFavourites)</onclick>
 				<selected>!Skin.HasSetting(HideHomeButtonFavourites)</selected>
+			</control>
+			<control type="radiobutton" id="205">
+				<description>Button 3 Show OBD Data</description>
+				<height>55</height>
+				<width>920</width>
+				<font>font24_title</font>
+				<focusedcolor>blue</focusedcolor>
+				<textcolor>black</textcolor>
+				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
+				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<label>Show OBD Button 3</label>
+				<onclick>Skin.ToggleSetting(HideHomeButtonObd)</onclick>
+				<selected>!Skin.HasSetting(HideHomeButtonObd)</selected>
 			</control>
 			
 			<!--<control type="label" id="201">
